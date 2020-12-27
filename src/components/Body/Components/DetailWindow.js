@@ -1,18 +1,20 @@
 import React from 'react';
 import './DetailWindow.css';
-import DetailBlockWindow from './DetailBlockWindow';
+import { ChangeBodyPage } from '../../../actions/bodyAction';
+import { connect } from 'react-redux';
+
 
 
 const DetailWindow = props => {
 
-    const hendletButtons = () => {
+    const hendletButtons = key => {
         if (props.obj.specification.length > 0) {
-            return <button onClick={() => dsplayDetailBlockWindow()}>Details</button>;
+            return <button onClick={() => dsplayDetailBlockWindow(key)}>Details</button>;
         }
     };
 
-    const dsplayDetailBlockWindow = () => {
-        return <DetailBlockWindow />
+    const dsplayDetailBlockWindow = id => {
+        props.ChangeBodyPage(id);
     };
 
 
@@ -21,7 +23,7 @@ const DetailWindow = props => {
         <div className='div-detail-window'>
             <h4>{props.obj.title}</h4>
             <div className='div-detail-window-buttons'>
-                {hendletButtons()}
+                {hendletButtons(props.id)}
                 <button>Projects</button>
             </div>
         </div>
@@ -29,4 +31,9 @@ const DetailWindow = props => {
 };
 
 
-export default DetailWindow;
+
+const mapStateToProps = state => {
+    return {}
+}
+
+export default connect(mapStateToProps, { ChangeBodyPage })(DetailWindow);
