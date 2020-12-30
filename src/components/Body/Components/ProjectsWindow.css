@@ -1,0 +1,122 @@
+.div-project-window {
+    width: 700px;
+    max-width: 95%;
+    min-height: 200px;
+    background-color: #ffffffd7;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.div-projects-boxs{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 2%;
+}
+.div-project-box-hendler{
+    height: 200px;
+    width: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.5%;
+}
+.div-project-box-hendler:hover{
+    transform: scale(1.05);
+}
+
+.div-img-project-window img{
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.div-project-box-hendler h3{
+    background-color: rgba(255, 255, 255, 0.74);
+    width: 96%;
+    min-height : 28px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.div-project-box-hendler-h3 {
+    height: 140px;
+    width: 100%;
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+.div-project-box-hendler-buttons {
+    height: 30px;
+    width: 100%;
+}
+
+.div-project-x {
+  position: fixed;
+  margin-left: 15px;
+  background-color: white;
+  color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 300;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div-project-x:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.2);
+}
+
+.div-project-box-hendler button{
+    border-radius: 8px;
+    height: 30px;
+    width: 45%;
+    display:inline-block;
+    padding: 2px;
+    margin: 5px;
+    border: 0.1em solid rgb(0, 0, 78);
+    color: rgb(0, 0, 78);
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: #FFFFFF;
+    text-align: center;
+    transition: all 0.15s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div-project-box-hendler button:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+    background-color:  rgb(0, 0, 78);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(128, 128, 128, 0.733);
+    cursor: pointer;
+}
+
+.div-project-box-hendler button:checked{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+    background-color:  rgb(0, 0, 78);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(128, 128, 128, 0.733);
+    cursor: pointer;
+}

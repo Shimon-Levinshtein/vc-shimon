@@ -4,6 +4,7 @@ import './Body.css';
 import { programmingLanguagesArr } from './specification/programmingLanguages';
 import { connect } from 'react-redux';
 import DetailBlockWindow from './Components/DetailBlockWindow';
+import ProjectsWindow from './Components/ProjectsWindow';
 
 
 
@@ -11,8 +12,10 @@ const Body = props => {
 
     const displayBody = () => {
 
-        if (props.bodyScreenActivation.bodyType === 'detail') {
+        if (props.bodyScreenActivation.bodyType === 'details') {
             return <DetailBlockWindow obj={props.bodyScreenActivation}/>
+        } else if (props.bodyScreenActivation.bodyType === 'projects') {
+            return <ProjectsWindow obj={props.bodyScreenActivation}/>
         }
         return (
             <div className='bady-page'>

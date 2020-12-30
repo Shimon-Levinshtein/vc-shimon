@@ -4,6 +4,7 @@ import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
 
 function App() {
+  document.title = "CV"
   return (
     <div className="App">
      <Header />
