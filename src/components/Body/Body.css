@@ -12,9 +12,19 @@
     width: 700px;
     max-width: 95%;
     min-height: 200px;
-    background-color: #ffffffd7;
+    background-color: #ffffffe8;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 15px;
+}
+
+.dive-bady-work-experience {
+    width: 100%;
+    border-top: 1px dotted #999999;
+}
+
+.div-display-work-experience {
+    padding-top: 15px;
 }
