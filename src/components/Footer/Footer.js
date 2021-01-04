@@ -9,7 +9,12 @@ const Footer = props => {
                 <p> 🏘  HaRav Shach Street 64, Bnei Brak</p>
             </div>
             <div>
-                <p>☎  054-7459786 </p>
+                <p>📞  054-7459786 </p>
+            </div>
+            <div>
+                <a href="https://wa.me/9720547459786?text=I%20Shimon%20Levimshtin, " class="float" target="_blank">
+                    <i className="fa fa-whatsapp my-float"></i>
+                </a>
             </div>
             <div>
                 <p>✉ <a href="mailto:shimonwebdeveloper@gmail.com">ShimonWebDeveloper@gmail.com</a></p>
