@@ -25,3 +25,11 @@
 .footer-company-about {
     margin-bottom: 100px;
 }
+
+.div-footer-whatsapp :hover{
+    transform: scale(1.2);  
+}
+
+.div-footer a{
+    
+}

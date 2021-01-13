@@ -16,14 +16,19 @@ export const programmingLanguagesArr = [
             
         ],
         specification: [
-
+            
         ]
     },
     {
         title: 'JavaScript',
         image: 'https://lh3.googleusercontent.com/pw/ACtC-3e2a2TAg6ct5NjCNhWNmsnzsIt1I_Q-VAmDFsyqdpWwUDobnBPIJIQnmtj3O7V6rw6SKPkkPYviyHJdNYRKD9y4Y-6FYv_vhv-LovkJdFyHKTxTGBMgvuZ1d8gVVO5sNJ0SGUA5NN5462FviER8u3Q=w1406-h937-no?authuser=0',
         projects: [
-            
+            {
+                name: 'Smart recipes project in javaScript',
+                linkProject: 'https://all-my-projects-in-nodejs-1.shimonlevinshte.repl.co/food-menu',
+                linkGithub: 'https://github.com/Shimon-Levinshtein/All-my-projects-in-nodejs/blob/main/public/javascripts/3_Food_menu/3_Food_menu.js',
+                imgUrl: 'https://lh3.googleusercontent.com/pw/ACtC-3clMkagHQhIs3rmXahDeViJl9dyg7D9S_EDSPhdsvxM2wNbA5zPewGvYKnaDaQHHKt-TTUkOop_B86a3tq4uBXgxEMOoPBkONg1-yJvHB-lQRbsl2qDoVwLGq1qiKIyIj_qdGbRonVoYP5eJmSormkM=w1770-h1182-no?authuser=0'
+            },
         ],
         specification: [
             "	array & objects & JSON & Switch & function & Classes	",
@@ -67,6 +72,12 @@ export const programmingLanguagesArr = [
                 linkProject: '',
                 linkGithub: 'https://github.com/Shimon-Levinshtein/iprintd-production-controller.git',
                 imgUrl: 'https://lh3.googleusercontent.com/pw/ACtC-3fpoRyc-3pekh2JsLij9nL4tBv1OLBpUbuQl5obSfu3ugtbxUMSgzQR4j6KUsLJLv73sfOEd1Itef1OrPHzjWWypEGWORxvFoB5INfaT7YAGpe0LtFbJ_zH1US01YWEvv8cfZFhy3FGLuH2jm9r8b8=w2067-h1240-no?authuser=0'
+            },
+            {
+                name: 'All my projects of JS in node.js',
+                linkProject: 'https://all-my-projects-in-nodejs-1.shimonlevinshte.repl.co/',
+                linkGithub: 'https://github.com/Shimon-Levinshtein/All-my-projects-in-nodejs.git',
+                imgUrl: 'https://lh3.googleusercontent.com/pw/ACtC-3ckJ-cnbrSWbom8c9BNRnKdcKs0-cAt59yMMr5lx21z8KQE1AwMSH_gwCoiPwfiItuvZnbJbU8tCcgnWl303QzGM6Vzkm1RW2VyViqgOOiwzRAShJ1myhq5TgcMTZjFF2Zb5RjWlhPCqB3W_dkXT0tT=w886-h591-no?authuser=0'
             },
         ],
         specification: [
@@ -132,9 +143,20 @@ export const programmingLanguagesArr = [
     },
     {
         title: 'React Native',
-        image: ' ',
+        image: 'https://lh3.googleusercontent.com/pw/ACtC-3c7foXWP8tzTdu5pFfDWJFKWwfVhFUC8k17VFu0mXWCHO1KdLFGCVLFi7tMKopCzI0JW0Rvvf6htegd3U8iMmHBzisDMh2fBGrUCUuWIDFMvGxH8OceNmIqPmVp0WQSLln167bbjWfVdK2oC48PT5c=s1240-no?authuser=0',
         projects: [
-            
+            {
+                name: 'Soccer Game React Native App',
+                linkProject: '',
+                linkGithub: 'https://github.com/Shimon-Levinshtein/soccer-game-react-native.git',
+                imgUrl: 'https://lh3.googleusercontent.com/pw/ACtC-3cje6TOA1ePNGSDlrgRbxp1R2oLu-AichQknMCdEhkFQtc1A7c5YphO6q5YjrGy3xqpG2JWn_6PXsNpltSib5cE3ph9yHwsFuE11Yp7m_dgw4lEFmpjiNfOvHUWBWBcCV_m87K5xle437KTnMXcm9Y=w1891-h1240-no?authuser=0'
+            },
+            {
+                name: 'Recipes React Native App',
+                linkProject: '',
+                linkGithub: 'https://github.com/Shimon-Levinshtein/recipes-react-native.git',
+                imgUrl: 'https://lh3.googleusercontent.com/pw/ACtC-3el1E8RcjaT7OOuiv9O9JVzkUYPOhuVJSz5Kl3wIpxEzhW-odED_rB6vjiMy_cC8vYsjhZtgokk-5bPfI6-3aiT0qnBkTkEpx3YTxFdPuCE3J9kpD9GEpiq6AJw6O6Z8B24pyky2yM2LtUdbHKoUnHU=w1860-h1240-no?authuser=0'
+            },
         ],
         specification: [
 

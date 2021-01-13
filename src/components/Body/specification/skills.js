@@ -1,10 +1,10 @@
 export const skills = [
-    "	Excellent interpersonal	",
-    "	Increases head in each job	",
-    "	Ability and experience working under pressure in front of multiple factors	",
-    "	Works well independently and in a team	",
-    "	High capabilities in identifying and quickly solving problems	",
-    "	High motivation, responsibility and dedication to the job	",
+    "	Excellent interpersonal skills	",
+    "	Takes responsibility and thinks big in each position that he does	",
+    "	Ability to excel under pressure, even while working on multiple projects simultaneously	",
+    "	Works well independently, as well as being a great team player	",
+    "	Has a knack of spotting problems and quickly finding solutions	",
+    "	Very motivated and dedicated	",
     "	In-depth technological knowledge and understanding	",
-    "	High self-learning ability and development of existing knowledge	",
+    "	Self-learner who loves to broaden his knowledge	",
 ];
