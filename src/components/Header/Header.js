@@ -8,7 +8,7 @@ const Header = () => {
             <div className='div-header-max-width'>
                 <div className='div-h2-header'>
                     <h2>CV</h2>
-                    <h2>Shimon Leinshtin</h2>
+                    <h2>Shimon Levinshtin</h2>
                 </div>
                 <div className='div-img-header'>
                     <img src={jpgHeader} />
